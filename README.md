@@ -17,7 +17,7 @@ before you run the `python fib.py`
 
 Prepare to be amazed as your Python packages reach new levels of performance with Rust by their side. Say goodbye to sluggish code and hello to lightning-fast execution!
 
-The main difference between `maturin develop` and `maturin develop --release` lies in how the Rust code is compiled and optimized when integrating a Rust extension into a Python project.
+@@The main difference between `maturin develop` and `maturin develop --release` lies in how the Rust code is compiled and optimized when integrating a Rust extension into a Python project.@@
 
 **maturin develop**:
 
