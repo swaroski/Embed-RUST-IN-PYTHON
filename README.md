@@ -19,13 +19,13 @@ Prepare to be amazed as your Python packages reach new levels of performance wit
 
 #### The main difference between `maturin develop` and `maturin develop --release` lies in how the Rust code is compiled and optimized when integrating a Rust extension into a Python project. 
 
-**maturin develop**:
+``maturin develop``:
 
 This command builds the Rust code with debugging information and optimizations disabled.
 It's typically used during the development phase when you want to iterate quickly, debug the Rust code, and have meaningful error messages.
 The resulting Rust code may not be as optimized for performance as it could be.
 
-**maturin develop --release**:
+``maturin develop --release``:
 
 This command builds the Rust code with optimizations enabled for release.
 It's used when you're preparing your Python package for production or release.
