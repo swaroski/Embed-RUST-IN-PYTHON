@@ -9,7 +9,7 @@ Getting Started:
 To kickstart your journey, begin by installing Maturin with a simple `pip install maturin` Next, navigate to the `rustic` directory and execute `maturin develop`. This command not only builds your Rust code but also installs the Python package in development mode, ensuring it works seamlessly in your current environment. With everything set up, you can dive into benchmarking by running `python main.py`. 
 
 You can also use the `fib.py` file to see how running the Fibonacci numbers run in Python vs Rust. I saw a 90 times difference between the two. For that, one would have to use the `Cargo1.toml` and the `lib1.rs` code. 
-Also, make sure to go to the `rustic` folder and run the following:
+Also, make sure to go to the `rustic` folder and run the following in the command line:
 + `cargo clean`
 followed by
 - `maturin develop --release`
